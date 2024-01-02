@@ -1,6 +1,5 @@
 import elephant from "../images/elephant.jpeg"
 // import App from "./App.jsx"
-const Data = () => {
     let data = [
       {
         id: 1,
@@ -19,12 +18,6 @@ const Data = () => {
         img: elephant,
       },
     ];
-    return (
-        data.map((i)=>{
-            return(
-            <img src={i.img} key={i.id}/>)
-        })
-    );
-  };
   
-export default Data;
+  
+export default data;

@@ -1,5 +1,6 @@
 import "./App.css";
-import Data from "./compounds/data";
+import data from "./compounds/data.jsx";
+import Img from "./compounds/img.jsx";
 
 
 function App() {
@@ -7,7 +8,7 @@ function App() {
     <>
     <h1 className="head">Kalvium gallery</h1>
     <div className="grid">
-    <Data/>;
+    <Img data={data}/>
       </div>
     </>
   );

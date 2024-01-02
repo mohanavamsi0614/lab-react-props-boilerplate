@@ -1,6 +1,7 @@
 import { Component } from "react";
 import "./App.css"
 import Data from "./compounds/data";
+import Img from "./compounds/classimg";
 export default class AppClass extends Component{
  
   // code here
@@ -9,7 +10,7 @@ export default class AppClass extends Component{
       <>
     <h1 className="head">Kalvium gallery</h1>
     <div className="grid">
-    <Data/>
+    <Img data={Data}/>
     </div>
     </>
   )}
